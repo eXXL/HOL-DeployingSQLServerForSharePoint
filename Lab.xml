@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Lab xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/ContentFramework.Core.Models">
+<Id>ConfiguringSqlServerforSharePoint</Id>
+<Technologies>
+    <Technology>Windows Azure</Technology>
+  </Technologies>
+    <Author>
+    <Name>mwasham</Name>
+  </Author>
+  <Description>In this hands-on lab you will learn how to create and configure a SQL Server 2012 Server for a SharePoint Farm Deployment.</Description>  
+  <Document ConversionType="Html">.\HOL.md</Document>
+  <Title>Configuring SQL Server 2012 Server for SharePoint in Windows Azure</Title>
+  <Version>1.0.0</Version>
+  <Source></Source>
+  <DependencyChecker></DependencyChecker>
+  <CustomProperties>    
+	<Property Name="GitHubRepository" Value="https://github.com/WindowsAzure-TrainingKit/HOL-DeployingSQLServerForSharePoint" />
+  </CustomProperties>
+  </Lab> 

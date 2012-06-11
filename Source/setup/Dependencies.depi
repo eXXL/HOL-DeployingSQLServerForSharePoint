@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DependencyCheckerConfiguration version="2.0">
+	<title>Configuring SQL Server 2012 Server for SharePoint in Windows Azure</title>
+	<dependencies>
+		<dependency 
+			hint="PowerShell2" 
+			name="Windows PowerShell 2.0" 
+			helpLink="http://microsoft.com/powershell/" 
+			disableSkip="false"
+			type="WebPI" />
+		<dependency
+			hint="Windows Azure PowerShell - June 2012;0.6.0"
+			name="Windows Azure PowerShell"
+			description="Windows Azure PowerShell is a powerful scripting environment to control and automate the deployment and management of your workloads in Windows Azure."
+			helpLink="http://msdn.microsoft.com/en-us/library/windowsazure/jj156055"
+			disableSkip="false"
+			type="Uninstall" /> 
+    </dependencies>
+</DependencyCheckerConfiguration>
