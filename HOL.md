@@ -185,6 +185,8 @@ You will now create the Windows Server VM and configure SQL Server. You will aut
 
 1. Click **Advanced System Settings** and switch to **Computer Name** tab. Then click **Change**.
 
+> **Note:** If domain controller is not found, you might have to set the IP Adress of the DNS Server manually to the "addc" Server in the network settings.
+
 1. Select Domain, and enter contoso.com. When prompted use contoso\administrator and allow the reboot.
 
 1. Once rebooted login via remote desktop again 
